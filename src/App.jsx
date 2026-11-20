@@ -127,7 +127,7 @@ function App() {
       </section>
 
       <section className="page-width section section-decorated" id="work">
-        <SectionHeading eyebrow="PROJECTS" title="Selected work"/>
+        <SectionHeading eyebrow="PROJECTS" title="Projects I’ve built"/>
         <div className="project-grid">
           {projects.map(project => <article className="project-card card" key={project.title}>
             <div className="project-image">{project.image ? <img src={project.image} alt={project.title}/> : <div className="project-image-placeholder"><ImagePlus size={30}/><span>Project photo</span></div>}</div>
